@@ -17,7 +17,7 @@ This script will let you send the primary colour of the current wallpaper you ha
 #### Server (Raspberry PI)
 
 ```python
-PORT = 5000	     # Port to revieve from
+PORT = 5000	         # Port to revieve from
 RED_PIN = 22		# GPIO PIN for red
 GREEN_PIN = 23		# GPIO PIN for green
 BLUE_PIN = 24		# GPIO PIN for blue
