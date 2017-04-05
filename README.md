@@ -17,19 +17,19 @@ This script will let you send the primary colour of the current wallpaper you ha
 #### Server (Raspberry PI)
 
 ```python
-PORT = 5000			# Port to revieve from
-RED_PIN = 22		# GPIO PIN for red
+PORT = 5000	# Port to revieve from
+RED_PIN = 22		  # GPIO PIN for red
 GREEN_PIN = 23		# GPIO PIN for green
-BLUE_PIN = 24		# GPIO PIN for blue
+BLUE_PIN = 24		 # GPIO PIN for blue
 ```
 
 #### Client (Desktop)
 
 ```python
-PORT = 5000				# Port to send to
+PORT = 5000		# Port to send to
 SERVER = "192.168.1.7"	# Server address
-QUALITY = 5				# Quality to get dominant color
-DURATION = 15			# Time to sleep before checking again (seconds)
+QUALITY = 5		# Quality to get dominant color
+DURATION = 15		# Time to sleep before checking again (seconds)
 ```
 
 
@@ -49,5 +49,5 @@ You can follow these nice tutorials:
 
 - Salva Corts
 - [@SalvaCorts](https://twitter.com/SalvaCorts)
-- [salvacortsit@gmail.com](mailto: salvacortsit@gmail.com)
+- salvacortsit@gmail.com
 
