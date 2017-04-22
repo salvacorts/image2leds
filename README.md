@@ -6,30 +6,27 @@ This script will let you send the primary colour of the current wallpaper you ha
 
 ## Requirements:
 
-- **ColorThief**: `pip install colorthief`
-- **Pigpio Library:** <u>http://abyz.co.uk/rpi/pigpio/python.html</u>
-
-
-
-
+- **ColorThief**: `sudo pip install colorthief`
+- **Pigpio Library:** <u>http://abyz.co.uk/rpi/pigpio/python.html</u> (Installed by default on Raspbian)
+- **This Tool:** `git clone https://github.com/salvacorts/image2leds.git`
 
 ## Configuration:
 #### Server (Raspberry PI)
 
 ```python
-PORT = 5000	        # Port to revieve from
-RED_PIN = 22		# GPIO PIN for red
-GREEN_PIN = 23		# GPIO PIN for green
-BLUE_PIN = 24		# GPIO PIN for blue
+PORT = 5000      # Port to revieve from
+RED_PIN = 36     # GPIO PIN for red
+GREEN_PIN = 38	  # GPIO PIN for green
+BLUE_PIN = 40    # GPIO PIN for blue
 ```
 
 #### Client (Desktop)
 
 ```python
-PORT = 5000		# Port to send to
-SERVER = "192.168.1.7"	# Server address
-QUALITY = 5		# Quality to get dominant color
-DURATION = 15		# Time to sleep before checking again (seconds)
+PORT = 5000            # Port to send to
+SERVER = "192.168.1.8" # Server address
+QUALITY = 5            # Quality to get dominant color
+DURATION = 15          # Time to sleep before checking again (seconds)
 ```
 
 
@@ -50,4 +47,3 @@ You can follow these nice tutorials:
 - Salva Corts
 - [@SalvaCorts](https://twitter.com/SalvaCorts)
 - salvacortsit@gmail.com
-

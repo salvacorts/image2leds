@@ -9,9 +9,9 @@ import socket, thread
 
 # Main options
 PORT = 5000			# Port to revieve from
-RED_PIN = 22		# GPIO PIN for red
-GREEN_PIN = 23		# GPIO PIN for green
-BLUE_PIN = 24		# GPIO PIN for blue
+RED_PIN = 36		# GPIO PIN for red
+GREEN_PIN = 38		# GPIO PIN for green
+BLUE_PIN = 40		# GPIO PIN for blue
 
 def ServeClient(clientSocket, addr):
 	# Initialize RPI GPIO configuration

@@ -8,7 +8,7 @@ import os, sys, socket, time
 
 # Main options
 PORT = 5000				# Port to revieve from
-SERVER = "127.0.0.1"	# Server address
+SERVER = "192.68.1.8"	# Server address
 QUALITY = 5				# Quality to get dominant color
 DURATION = 15			# Time to sleep before checking again (seconds)
 
