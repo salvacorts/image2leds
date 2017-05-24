@@ -10,7 +10,7 @@ import os, sys, socket, time
 PORT = 5000				# Port to revieve from
 SERVER = "192.68.1.8"	# Server address
 QUALITY = 5				# Quality to get dominant color
-DURATION = 15			# Time to sleep before checking again (seconds)
+DURATION = 10			# Time to sleep before checking again (seconds)
 
 def GetDominantColour():
 	dominantColour = -1
